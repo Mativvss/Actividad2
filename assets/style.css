@@ -1,0 +1,66 @@
+
+.img-producto {
+    max-width: 300px;
+    height: auto;
+}
+.fondo{
+    background-color: lightblue;
+}
+.img-ventas {
+    max-width: 300px;
+    height: auto;
+}
+.hd{
+    font-family: Arial;
+    font-size: 10px;
+    
+}
+footer{
+    /*cambios el footer*/
+    background-color: black;
+    width: fit-content;
+    color:white;
+    font-size: 20px;
+
+}
+section p{
+        font-size: 19px;
+}
+.nav{
+    width: fit-content;
+}
+
+#hcontacto{
+    /*cambios para el header de contacto*/
+    background-color: lightblue;
+    color: cornflowerblue;
+    width: fit-content;
+}
+.listac{
+    /*cambio de tamaño para lista de opciones de contacto*/
+        font-size: 25px;
+}
+.desc{
+    /*se alinea al centro la descripción de la pag*/
+    text-align: center;
+}
+section a{
+    /*Cambio de color para el link de section*/
+    color: black;
+}
+/*CAMBIO DE COLOR PARA TODOE EL BODY*/
+body{
+    background-color: lightcyan;
+}
+/*CAMBIOS DE TAMAÑO PARA TABLET Y CELULAR*/
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    nav a {
+        font-size: 20px;
+    }
+}
+
