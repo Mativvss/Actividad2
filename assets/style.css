@@ -1,19 +1,35 @@
+nav {
+    background-color: lightblue;
+    width: fit-content;
 
+}
+nav a {
+    color: cornflowerblue;
+    font-size: 25px;
+    padding: 15px 20px;
+
+}
+nav li{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 25px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .img-producto {
     max-width: 300px;
     height: auto;
-}
-.fondo{
-    background-color: lightblue;
 }
 .img-ventas {
     max-width: 300px;
     height: auto;
 }
-.hd{
-    font-family: Arial;
-    font-size: 10px;
-    
+h1{
+    color:black;
 }
 footer{
     /*cambios el footer*/
@@ -25,9 +41,6 @@ footer{
 }
 section p{
         font-size: 19px;
-}
-.nav{
-    width: fit-content;
 }
 
 #hcontacto{
